@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hailo_wallet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.wsdesign.hailowallet_android.Hailo_wallet">
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="10dp">
+
+  <customfonts.MyTextView_Helvatica_Light
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Accounts"
+      android:layout_marginBottom="10dp"
+      android:textSize="15sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/visa2"
+            android:id="@+id/imageView" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+            <customfonts.MyTextView_Helvatica_Light
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personal"
+                android:textColor="@color/string1"
+                android:textSize="16sp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+            <customfonts.MyTextView_Helvatica_Light
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:gravity="center"
+                android:textColor="@color/substring"
+                android:text="3456"/>
+                <customfonts.MyTextView_Helvatica_Light
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:textColor="@color/substring"
+                    android:text="3456"/>
+            </LinearLayout>
+                  </LinearLayout>
+        <customfonts.EditText_Helvatica_Meidum
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Primary"
+            android:layout_marginRight="12dp"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="right"
+            android:gravity="right|center"/>
+            </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#a6a6a6"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/building1"
+            android:id="@+id/imageView1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="22dp">
+            <customfonts.MyTextView_Helvatica_Light
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Company Account"
+                android:textColor="@color/string1"
+                android:textSize="16sp"/>
+
+                <customfonts.MyTextView_Helvatica_Light
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/substring"
+                    android:text="Halio London"/>
+
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp"
+        android:background="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="12dp">
+
+        <customfonts.MyTextView_Helvatica_Light
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More"
+            android:layout_marginBottom="25dp"
+            android:textSize="15sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/smiley2"
+                android:layout_gravity="center"
+                android:id="@+id/imageView3" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="22dp">
+                <customfonts.MyTextView_Helvatica_Light
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Auto Tip"
+                    android:textColor="@color/string1"
+                    android:textSize="16sp"/>
+                    <customfonts.MyTextView_Helvatica_Light
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="20%"
+                        android:textColor="@color/colorAccent"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#a6a6a6"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/shape"
+                android:layout_gravity="center"
+                android:id="@+id/imageView5" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="22dp">
+                <customfonts.MyTextView_Helvatica_Light
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Hailo Credits"
+                    android:textColor="@color/string1"
+                    android:gravity="center"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/add2"
+                android:layout_gravity="center"
+                android:id="@+id/imageView6" />
+
+                <customfonts.Edittext_regular
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Enter Promo Code"
+                    android:layout_marginLeft="25dp"
+                    android:background="#00000000"
+                    android:textColor="@color/substring"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="50dp"
+            android:background="#a6a6a6"/>
+</LinearLayout>
+    </LinearLayout>
